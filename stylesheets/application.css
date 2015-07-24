@@ -10,7 +10,7 @@ body { color: #333333; background-color: white; }
 
 body, input, select, textarea, button { font: 12px Helvetica, arial, freesans, clean, sans-serif; line-height: 1.4; }
 
-tt, code, pre { font-family: Consolas, "Liberation Mono", Courier, monospace; font-size: 12px; }
+tt, code, pre { font-family: Consolas, "Liberation Mono", Courier, monospace; font-size: 12px; background-color: #F0F0FF; }
 
 #content h1, h2, h3, h4 { color: #333333; }
 
@@ -76,7 +76,7 @@ div#welcome-store-content h1, div#welcome-store-content h2, div#welcome-store-co
 a { color: #4183c4; }
 a:link, a:visited { color: #4183c4; }
 
-div.issue { background: #FFD; padding: 20px; margin-bottom: 6px; border: 1px solid #ddd; margin: -11px -11px 15px -11px; }
+div.issue { background: #FFFFF4; padding: 20px; margin-bottom: 6px; border: 1px solid #ddd; margin: -11px -11px 15px -11px; }
 div.issue.tooltip { padding: 6px; margin: 0 0 6px 0; }
 div.contact.details, div.deal.details { padding: 15px !important; margin: -11px -11px 6px; }
 
@@ -212,8 +212,8 @@ img.gravatar { -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05); -moz-box-sha
 .controller-wiki div#content > div.contextual { margin-top: 3px; }
 .controller-wiki div#content > div.wiki { padding: 0 8px 8px 8px; }
 
-div.wiki { line-height: 1.7; }
-/* div.wiki p, div.wiki blockquote, div.wiki ul, div.wiki ol, div.wiki dl, div.wiki table, div.wiki pre { margin: 15px 0; } */
+/* div.wiki { line-height: 1.7; }
+div.wiki p, div.wiki blockquote, div.wiki ul, div.wiki ol, div.wiki dl, div.wiki table, div.wiki pre { margin: 15px 0; } */
 div.wiki ul, div.wiki ol { padding-left: 30px; }
 div.wiki h1 { font-size: 28px; }
 div.wiki h2 { font-size: 20px; }
