@@ -1,4 +1,10 @@
-Redmine gitmike theme
+Redmine gitmike theme - Fork by GeoffMaciolek
+## Warnings
+
+This theme has had its stylesheed edited **directly**, rather than via the Sass->Compass (via Grunt) source.
+
+Ergo this was done "wrong."  However,  I haven't been able to figure out how to do these things in the proper way yet, and I *really* wanted these fixes.  SASS editing
+
 ==============
 
 This is github-like theme for Redmine.
@@ -40,8 +46,15 @@ grunt debug
 
 GPL3
 
+## Todo
+
+* Actually fix SASS rather than editing the (comiled) CSS
+* Address spacing issues in project list 
+
+
 ## Change Log
 
+* r8 2015/07/23: Theme changes (improperly) via direct CSS editing.
 * r7 2014/04/05: Fixed some issues #12 #14 #17 #19 (from @rumpelsepp) #13 (from @timdp) #18 (from @cyberjunky)
 * r6 2013/11/23: Dashboard (@n-rodriguez). Fixed some issues #6 #7 #8 and #10 reported from @statschner
 * r5 2013/07/21: Improvement Forms
